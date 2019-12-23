@@ -1,3 +1,0 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2511
-\cocoatextscaling1\cocoaplatform1{\fonttbl\f0\fnil\fcharset0 .SFUI-Regular;}
-\f0 \cf0 \uc0\u24555 \u36807 \u24180 \u20102 \u65292 \u33021 \u21542 \u25630 \u25250 \u32418 \u21253 \u30340 \u33050 \u26412 \u21834 }
