@@ -9,7 +9,7 @@ let url = $request.url
 let regex = /vmid=(\d*)/
 let vmid= regex.exec(url)
 let mid = vmid[1]
-let api = `https://space.bilibili.com/ajax/member/getSubmitVideos?mid=${mid}&pagesize=10&order=stow`
+let api = `https://space.bilibili.com/ajax/member/getSubmitVideos?mid=${mid}&pagesize=15&order=stow`
 var Url = {
     url: api,
     method: "GET"
@@ -23,7 +23,7 @@ $task.fetch(Url).then(response => {
       let scheme=`bilibili://av/${element['aid']}`
       info+=index+": "+element['title']+"\n"+scheme+"\n"
   })
-  $notify('收藏排行前10','长按进入', info);
+  $notify('收藏排行前15','长按进入', info);
   $done({});
 }, reason => {
   $notify("收藏排行获取失败", "", reason.error);
