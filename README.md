@@ -1,4 +1,4 @@
-## Quantumult X related Description：
+### Quantumult X related Description：
 
 * **Script remote resources and subscriptions only apply to QX v1.0.0(120). If the version is higher than v1.0.2 (136), you need to point to the local script path yourself.**
 
